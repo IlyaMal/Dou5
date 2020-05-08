@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_page"
+            android:title="Главная"
+            android:icon="@drawable/ic_page"/>
+
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_main"
+                android:icon="@drawable/ic_links"
+                android:title="Перейти на сайт" />
+            <item
+                android:id="@+id/nav_sub"
+                android:icon="@drawable/ic_sub"
+                android:title="Подписка" />
+            <item
+                android:id="@+id/nav_ads"
+                android:icon="@drawable/ic_ads"
+                android:title="Публикация" />
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/ic_right"
+                android:title="Закрыть меню" />
+        </menu>
+    </item>
+</menu>
